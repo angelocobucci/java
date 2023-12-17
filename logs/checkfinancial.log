@@ -1,0 +1,22 @@
+2023-12-17 14:52:48 - c.f.c.CheckfinancialApplication - Starting CheckfinancialApplication using Java 17.0.3.1 with PID 16632 (/home/kalpa/Scrivania/Uni.DocumentiMiei/fabric/checkfinancial/target/classes started by kalpa in /home/kalpa/Scrivania/Uni.DocumentiMiei/fabric/checkfinancial)
+2023-12-17 14:52:48 - c.f.c.CheckfinancialApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2023-12-17 14:52:48 - c.f.c.CheckfinancialApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-17 14:52:49 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2023-12-17 14:52:49 - o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-17 14:52:49 - o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-17 14:52:49 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-17 14:52:49 - c.f.c.CheckfinancialApplication - Started CheckfinancialApplication in 1.311 seconds (process running for 1.509)
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@21502e5f
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@16718165
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - GET "/hello", parameters={}
+2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.fabric.checkfinancial.rest.CheckfinancialRest#getHello()
+2023-12-17 14:53:32 - c.f.c.rest.CheckfinancialRest - Getting hello with MESSAGE(HelloDto(message=Hello Fabric !)).
+2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json]
+2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [HelloDto(message=Hello Fabric !)]
+2023-12-17 14:53:32 - o.s.web.servlet.DispatcherServlet - Completed 200 OK
