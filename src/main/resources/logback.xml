@@ -22,7 +22,7 @@
 
 
     <logger name="org.springframework" level="INFO" />
-    <logger name="com.fabric.checkfinancial" level="DEBUG" />
+    <logger name="com.fabrick.checkfinancial" level="DEBUG" />
     <logger name="org.hibernate" level="DEBUG" />
 
 

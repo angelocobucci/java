@@ -1,6 +1,6 @@
-package com.fabric.checkfinancial.rest;
+package com.fabrick.checkfinancial.rest;
 
-import com.fabric.checkfinancial.dto.HelloDto;
+import com.fabrick.checkfinancial.dto.HelloDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 @Slf4j
-public class CheckfinancialRest {
+public class ManagefinancialRest {
 
     @GetMapping(path = "/hello", produces = MediaType.APPLICATION_JSON_VALUE)
     public HelloDto hello(){

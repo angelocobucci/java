@@ -1,4 +1,4 @@
-package com.fabric.checkfinancial.persistence.entity;
+package com.fabrick.checkfinancial.persistence.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -20,8 +20,8 @@ public class Movement {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "movType")
-    private String movType;
+    @Column(name = "movtype")
+    private String movtype;
 
     @Column(name = "amount")
     private Double amount;
@@ -30,5 +30,5 @@ public class Movement {
     LocalDateTime insertDateTime;
 
     @OneToMany(mappedBy = "movement", cascade = CascadeType.ALL)
-    private List<MovHistory> movHistories;
+    private List<MovHistory> movhistories;
 }

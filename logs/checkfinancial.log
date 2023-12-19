@@ -15,7 +15,7 @@
 2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
 2023-12-17 14:53:31 - o.s.web.servlet.DispatcherServlet - GET "/hello", parameters={}
-2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.fabric.checkfinancial.rest.CheckfinancialRest#getHello()
+2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.fabrick.checkfinancial.rest.ManagefinancialRest#getHello()
 2023-12-17 14:53:32 - c.f.c.rest.CheckfinancialRest - Getting hello with MESSAGE(HelloDto(message=Hello Fabric !)).
 2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json]
 2023-12-17 14:53:32 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [HelloDto(message=Hello Fabric !)]

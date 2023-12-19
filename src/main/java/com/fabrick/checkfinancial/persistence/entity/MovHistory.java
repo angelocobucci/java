@@ -1,4 +1,4 @@
-package com.fabric.checkfinancial.persistence.entity;
+package com.fabrick.checkfinancial.persistence.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.fabric.checkfinancial.dto;
+package com.fabrick.checkfinancial.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
