@@ -12,7 +12,7 @@ import java.time.Duration;
 
 @Configuration
 @Slf4j
-public class RestConfiguration {
+public class RestClientConfiguration {
 
     @Value(value = "${fabrick.api.auth-schema}")
     private String authSchema;
